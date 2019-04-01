@@ -81,7 +81,7 @@ header nav {
 	display: flex;
     width: 800px;
     justify-content: flex-end;
-    /* align-items: center; */
+ 
    
   } 
   
@@ -91,8 +91,6 @@ header nav a {
     text-decoration: none;
     padding-left: 25px;
     margin-left:30px;
-    display:flex;
-    justify-content: flex-end;
   }
 
 header .logo {
@@ -102,7 +100,7 @@ header .logo {
 }
 
 .about {
-    padding-bottom: 10px;
+    padding: 10px;
     border-bottom: 1px black dashed;
 }
 .main-content{
@@ -131,4 +129,32 @@ header .logo {
     border: 2px solid black;
     margin: 15px 0 5px;
     border-radius:10px;
+}
+.top-photo {
+    width: 880px;
+}
+.bottom-content {
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom:40px;
+    padding-left: 22px
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }

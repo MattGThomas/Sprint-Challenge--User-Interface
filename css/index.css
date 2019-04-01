@@ -188,7 +188,7 @@ header nav {
 	display: flex;
     width: 800px;
     justify-content: flex-end;
-    /* align-items: center; */
+    
    
   } 
   
@@ -206,4 +206,8 @@ header .logo {
     margin-bottom: 25px;
     display: flex;
     align-items: flex-start;
+}
+
+.top-photo {
+    margin-bottom: 20px;
 }
